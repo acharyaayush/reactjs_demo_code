@@ -5,12 +5,12 @@ import { withRouter, Link } from 'react-router-dom';
 import EyeInvisibleIcon from '../../../Assets/Icons/EyeInvisibleIcon';
 import EyeVisibleIcon from '../../../Assets/Icons/EyeVisibleIcon';
 import Logo from '../../../Assets/Images/logo-black.png';
-import axios from '../../../axios';
+import axios from '../axios/axios';
 import {
 	errorNotify,
 	internalErrorNotify,
 	successNotify,
-} from '../../../helpers/notiication';
+} from '../helpers/notiication';
 
 const Signup = (props) => {
 	//defining states
