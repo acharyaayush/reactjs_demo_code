@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from 'antd';
-import axios from '../../../axios';
+import axios from '../axios/axios';
 import { useForm } from 'react-hook-form';
 import { withRouter, Link } from 'react-router-dom';
 import ArrowLeftIcon from '../../../Assets/Icons/ArrowLeftIcon';
@@ -8,7 +8,7 @@ import {
 	errorNotify,
 	internalErrorNotify,
 	successNotify,
-} from '../../../helpers/notiication';
+} from '../helpers/notiication';
 
 const ForgetPassword = (props) => {
 	//defining states
