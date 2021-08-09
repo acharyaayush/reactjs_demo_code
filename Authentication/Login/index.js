@@ -4,10 +4,10 @@ import { withRouter, Link, Redirect } from 'react-router-dom';
 import EyeInvisibleIcon from '../../../Assets/Icons/EyeInvisibleIcon';
 import EyeVisibleIcon from '../../../Assets/Icons/EyeVisibleIcon';
 import Logo from '../../../Assets/Images/logo-black.png';
-import axios from '../../../axios';
+import axios from '../axios/axios';
 import store from 'store';
 import { message, Button } from 'antd';
-import { errorNotify, internalErrorNotify } from '../../../helpers/notiication';
+import { errorNotify, internalErrorNotify } from '../helpers/notiication';
 
 const LoginCustomer = (props) => {
 	//defining states
